@@ -1,0 +1,102 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    display: flex;
+    width:920px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    color:grey;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Big Shoulders Display',
+    cursive;
+    color: hsl(0, 0%, 95%);
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+p{
+    color:hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 85px;
+}
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    color:white;
+    text-align: center;
+    background-color: hsl(0, 0%, 95%);
+}
+.container{
+    width:920px;
+    display: flex;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 170px;
+    margin-bottom: 130px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.orange{
+    background-color: hsl(31, 77%, 52%);
+}
+.blue{
+    background-color: hsl(184, 100%, 22%);
+}
+.cyan{
+    background-color: hsl(179, 100%, 13%);
+}
+.container-text{
+    padding:50px;
+}
+img{
+    margin-bottom: 40px;
+}
+button{
+width: 150px;
+height: 50px;
+background-color: hsl(0, 0%, 95%);
+border-radius: 100px;
+border: none;
+font-weight: 700;
+font-size: 15px;
+}
+.orange button{
+    color:hsl(31, 77%, 52%);
+}
+.blue button{
+    color:hsl(184, 100%, 22%);
+}
+.cyan button{
+    color:hsl(179, 100%, 13%);
+}
+button:hover{
+    background-color: transparent;
+    cursor: pointer;
+    color:hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+}
+
+@media (min-width:375px) and (max-width:810px){
+    .container{
+        width:330px;
+        display: block;
+        margin-top: 90px;
+    }
+    h1{
+        margin-bottom: 30px;
+    }
+    p{
+        margin-bottom: 25px;
+    }
+}
